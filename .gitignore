@@ -52,6 +52,7 @@ Thumbs.db
 # Matlab generated files #
 ##########################
 *.m~
+*.mat
 
 # Others #
 ##########
