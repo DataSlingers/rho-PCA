@@ -13,11 +13,11 @@
 
 %% Set parameters
 % Set data file name
-data_fn = "/Users/kelly/GoogleDriveBU/rhoPCA/data/FC_data/trial_center_scale/YAH/trial_center_scale_YAH.h5";
+data_fn = "/path/to/GoogleDrive/FC_data/trial_center_scale/YAH/trial_center_scale_YAH.h5";
 % Path to Tensor Toolbox
-ttb_path = "/Users/kelly/Documents/gitlab/tensor_toolbox";
+ttb_path = "/path/to/tensor_toolbox";
 % Path to rho-pca code
-rpca_path = "/Users/kelly/Documents/github/rho-PCA/rho_pca";
+rpca_path = "path/to/rho-PCA/rho_pca";
 % Number of pseudo-indepentdent factors to generate.
 K = 3;
 % Candidate parameters for hyperparameter tuning

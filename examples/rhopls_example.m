@@ -13,11 +13,11 @@
 
 %% Set parameters
 % Set data file name
-data_fn = "/Users/kelly/GoogleDriveBU/rhoPCA/data/FC_data/trial_center_scale/YAH/trial_center_scale_YAH.h5";
+data_fn = "/path/to/GoogleDrive/FC_data/trial_center_scale/YAH/trial_center_scale_YAH.h5";
 % Path to Tensor Toolbox
-ttb_path = "/Users/kelly/Documents/gitlab/tensor_toolbox";
+ttb_path = "/path/to/tensor_toolbox";
 % Path to rho-pca code
-rpca_path = "/Users/kelly/Documents/github/rho-PCA/rho_pca";
+rpca_path = "path/to/rho-PCA/rho_pca";
 % Number of pseudo-indepentdent factors to generate.
 K = 3;
 % Number of cross-validation folds
@@ -54,8 +54,6 @@ y = y(1:50);
 
 
 %% Partition data into training and testing sets
-% Index 1 will serve as the testing set
-% Indexes 2-nFolds will serve as training sets
 partIdx = cvpartition(y, 'KFold', nFolds);
 parts = cell(nFolds,1); 
 for ii = 1:nFolds; parts{ii} = partIdx.test(ii); end
