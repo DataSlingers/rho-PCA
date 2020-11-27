@@ -1,3 +1,3 @@
-This directory contains MATLAB functions that either implement rho-PCA or rho-PLS, or support them.
+This directory contains MATLAB functions implement and support rho-PCA or rho-PLS.
 Documentation is provided within each script.
-Refer to the [Wiki](https://github.com/DataSlingers/rho-PCA/wiki) for installation and examples.
+Refer to the [Wiki](https://github.com/DataSlingers/rho-PCA/wiki) for installation directions and examples.
