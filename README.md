@@ -1,6 +1,6 @@
 # rho-PCA
 Code for rho-PCA and rho-PLS algorithms.
-Refer to the [Wiki](https://github.com/DataSlingers/rho-PCA/wiki) for installation, examples, and data.
+Refer to the [Wiki](https://github.com/DataSlingers/rho-PCA/wiki) for installation directions, code examples, and data.
 
 ## Contents
 1. 'docs' - contains some documentation for rho-PCA
